@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+#definir funcion
+#funcion suma
+#funcion resta
+#funcion multiplicacion
+#funcion potenciacion
+
+
+
+print ("inserte 2 numeros para conseguir el resultado de suma, resta, multipliacion y potenciacion")
+
+def suma(sumandos, sumando):
+    print("resultado de la suma : ", sumandos + sumando)
+def resta(minuendo, sustraendo):
+    print("resultado de la resta : " , minuendo - sustraendo)
+def multiplicacion(multiplicando, multiplicador):
+    print("resultado de la multiplicacion: ", multiplicando * multiplicador)
+def potenciacion(base, exponente):
+    print("resultado de la potenciacion: ", base ** exponente)
+   
+   
+suma(9,8)
+resta(5,2)
+multiplicacion(12,4)
+potenciacion(9,8)
